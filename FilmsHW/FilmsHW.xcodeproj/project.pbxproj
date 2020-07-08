@@ -16,6 +16,11 @@
 		1E494C4B24B65903004BBF53 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E494C4A24B65903004BBF53 /* FilmModel.swift */; };
 		1E494C4D24B65C3B004BBF53 /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E494C4C24B65C3B004BBF53 /* FilmCell.swift */; };
 		1E494C4F24B662AB004BBF53 /* FilmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E494C4E24B662AB004BBF53 /* FilmVC.swift */; };
+		1E494C6024B66F18004BBF53 /* DJango.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E494C5B24B66F16004BBF53 /* DJango.mp3 */; };
+		1E494C6124B66F18004BBF53 /* Inception.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E494C5C24B66F16004BBF53 /* Inception.mp3 */; };
+		1E494C6224B66F18004BBF53 /* Intersteller.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E494C5D24B66F17004BBF53 /* Intersteller.mp3 */; };
+		1E494C6324B66F18004BBF53 /* Batman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E494C5E24B66F17004BBF53 /* Batman.mp3 */; };
+		1E494C6424B66F18004BBF53 /* Hobbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1E494C5F24B66F18004BBF53 /* Hobbit.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		1E494C4A24B65903004BBF53 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
 		1E494C4C24B65C3B004BBF53 /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
 		1E494C4E24B662AB004BBF53 /* FilmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmVC.swift; sourceTree = "<group>"; };
+		1E494C5B24B66F16004BBF53 /* DJango.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DJango.mp3; sourceTree = "<group>"; };
+		1E494C5C24B66F16004BBF53 /* Inception.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Inception.mp3; sourceTree = "<group>"; };
+		1E494C5D24B66F17004BBF53 /* Intersteller.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Intersteller.mp3; sourceTree = "<group>"; };
+		1E494C5E24B66F17004BBF53 /* Batman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Batman.mp3; sourceTree = "<group>"; };
+		1E494C5F24B66F18004BBF53 /* Hobbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hobbit.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +80,23 @@
 				1E494C4824B653C1004BBF53 /* FilmsTableVC.swift */,
 				1E494C3A24B6537E004BBF53 /* Main.storyboard */,
 				1E494C3D24B65385004BBF53 /* Assets.xcassets */,
+				1E494C5A24B66BB3004BBF53 /* Theme songs */,
 				1E494C3F24B65385004BBF53 /* LaunchScreen.storyboard */,
 				1E494C4224B65385004BBF53 /* Info.plist */,
 			);
 			path = FilmsHW;
+			sourceTree = "<group>";
+		};
+		1E494C5A24B66BB3004BBF53 /* Theme songs */ = {
+			isa = PBXGroup;
+			children = (
+				1E494C5E24B66F17004BBF53 /* Batman.mp3 */,
+				1E494C5B24B66F16004BBF53 /* DJango.mp3 */,
+				1E494C5F24B66F18004BBF53 /* Hobbit.mp3 */,
+				1E494C5C24B66F16004BBF53 /* Inception.mp3 */,
+				1E494C5D24B66F17004BBF53 /* Intersteller.mp3 */,
+			);
+			path = "Theme songs";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +157,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E494C6424B66F18004BBF53 /* Hobbit.mp3 in Resources */,
 				1E494C4124B65385004BBF53 /* LaunchScreen.storyboard in Resources */,
+				1E494C6324B66F18004BBF53 /* Batman.mp3 in Resources */,
+				1E494C6224B66F18004BBF53 /* Intersteller.mp3 in Resources */,
 				1E494C3E24B65385004BBF53 /* Assets.xcassets in Resources */,
 				1E494C3C24B6537E004BBF53 /* Main.storyboard in Resources */,
+				1E494C6124B66F18004BBF53 /* Inception.mp3 in Resources */,
+				1E494C6024B66F18004BBF53 /* DJango.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

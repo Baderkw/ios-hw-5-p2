@@ -131,6 +131,7 @@
                     <navigationItem key="navigationItem" id="RPS-3L-twT"/>
                     <connections>
                         <outlet property="castLabel" destination="if0-dk-g9V" id="SBK-UG-ALy"/>
+                        <outlet property="categoryLabel" destination="OT8-ye-cz9" id="ptg-4E-qf1"/>
                         <outlet property="filmImage" destination="MgK-MH-1mq" id="UQr-fo-FYi"/>
                         <outlet property="ratingLabel" destination="bob-ca-BSF" id="VCt-Yq-iXF"/>
                     </connections>
